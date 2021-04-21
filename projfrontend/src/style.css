@@ -1,0 +1,141 @@
+header {
+    /* height: 600px;
+    width: 100vw; */
+    background: black;
+    overflow: hidden;
+   background: #C33764;  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("./images/children.jpg");
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8)), url("./images/children.jpg"); /* The least supported option. */
+    /* The least supported option. */
+    color: white;
+}
+
+img {
+   object-fit: cover;
+   /* width: 800px;
+   height: 400px; */
+}
+
+.mainText{
+    margin: 175px 0px 0px 0px;
+    text-align: center;
+    height: 600px;
+}
+
+.donateButton{
+    color: white;
+    background-color: transparent;
+    margin: 20px 0px 0px 0px;
+    width: 20%;
+    font-size: 15px;
+    border-radius: 12px;
+    border-color: white;
+    transition: 0.3s;
+    margin-top: 30px;
+}
+
+
+.donateButton:hover {
+    background-color: rgba(199, 203, 238, 0.8);
+}
+h1{
+    font-size: 85px;
+}
+
+h2{
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+}
+h3{
+    font-size: 50px;
+    padding: 75px 0px 0px 120px;
+}
+h3.blogs{
+    font-size: 50px;
+    padding: 150px 0px 0px 450px;
+}
+h4,h5{
+    text-align: center;
+}
+
+h6{
+    font-size: 45px;
+}
+.editForm{
+    width: 30%;
+    margin: 70px 0px 0px 148px;
+}
+
+.reshapeImg{
+    width: 40%;
+    float: left;
+    margin: 70px 0px 0px 77px;
+}
+
+.card{
+    width: 18rem;
+    margin: 55px 80px 0px 87px;
+    background: transparent;
+    text-align: center;
+}
+
+.about{
+    font-size: 55px;
+    margin: 0px 0px 0px 560px;
+}
+
+div.volunteerDescription{
+    font-size: 25px;
+    margin: 50px 0px 0px 175px;
+}
+.carousel-inner .active,
+.carousel-inner .active + .carousel-item,
+.carousel-inner .active + .carousel-item + .carousel-item {
+  display: block;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 25px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #8134AF;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+div.socialMedia{
+    margin: 0px 0px 0px 825px;
+}
+footer{
+    display: block; 
+    opacity: 1
+}
